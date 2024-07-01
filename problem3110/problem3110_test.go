@@ -3,15 +3,16 @@ package problem3110
 import "testing"
 
 type TestCase struct {
-	Name string
+	Name  string
 	Input string
-	Want int
+	Want  int
 }
 
 func TestProblem3110(t *testing.T) {
 	testCases := []TestCase{
 		{"hello should return 13", "hello", 13},
 		{"zaz should return 50", "zaz", 50},
+		{"Emma should return 52", "Emma", 52},
 	}
 
 	for _, tt := range testCases {

@@ -32,7 +32,7 @@ Return the permutation difference between s and t.
 
 - **Explanation:** The permutation difference between s and t is equal to |0 - 3| + |1 - 2| + |2 - 4| + |3 - 1| + |4 - 0| = 12.
 
-## Constraint
+## Constraints
 
 - 1 <= s.length <= 26
 - Each character occurs at most once in s.

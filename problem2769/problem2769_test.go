@@ -11,8 +11,8 @@ type TestCase struct {
 
 func TestProblem3110(t *testing.T) {
 	testCases := []TestCase{
-		{"num = 4, t = 1 should return 6", 4, 1, 6},
-		{"num = 3, t = 2 should return 7", 3, 2, 7},
+		{Name: "num = 4, t = 1 should return 6", Input1: 4, Input2: 1, Want: 6},
+		{Name: "num = 3, t = 2 should return 7", Input1: 3, Input2: 2, Want: 7},
 	}
 
 	for _, tt := range testCases {

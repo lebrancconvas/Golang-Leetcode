@@ -11,28 +11,20 @@ Return the maximum achievable number after applying the operation at most t time
 
 ### Example 1
 
-Input: num = 4, t = 1
-
-Output: 6
-
-Explanation:
-
-Apply the following operation once to make the maximum achievable number equal to num:
-
-Decrease the maximum achievable number by 1, and increase num by 1.
+- **Input:** num = 4, t = 1
+- **Output:** 6
+- **Explanation:**
+  Apply the following operation once to make the maximum achievable number equal to num:
+  Decrease the maximum achievable number by 1, and increase num by 1.
 
 ### Example 2
 
-Input: num = 3, t = 2
+- **Input:** num = 3, t = 2
+- **Output:** 7
+- **Explanation:**
+  Apply the following operation twice to make the maximum achievable number equal to num:
+  Decrease the maximum achievable number by 1, and increase num by 1.
 
-Output: 7
-
-Explanation:
-
-Apply the following operation twice to make the maximum achievable number equal to num:
-
-Decrease the maximum achievable number by 1, and increase num by 1.
-
-## Constraint
+## Constraints
 
 - 1 <= num, t <= 50
